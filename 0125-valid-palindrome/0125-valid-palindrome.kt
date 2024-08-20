@@ -1,18 +1,11 @@
 class Solution {
+    var i = 0
     fun isPalindrome(s: String): Boolean {
-        val stringWithOnlyDigits = s.filter { it.isLetterOrDigit() }.lowercase()
-        return palindrome(stringWithOnlyDigits,0,stringWithOnlyDigits.length-1)
-    }
-    fun palindrome(s : String,l:Int,r:Int):Boolean{
-        if(l>r){
-            return true
-        }
-        if(s[l]!=s[r])
-        {
-            return false
-        }
-        return palindrome(s,l+1,r-1)
-        
+        val snew = s.filter { it.isLetterOrDigit() }.lowercase()
+        if(i >=snew.length/2) return true
+        if(snew[i]!=snew[snew.length-i-1]) return false
+        i++
+        return isPalindrome(snew)
     }
 
 }
