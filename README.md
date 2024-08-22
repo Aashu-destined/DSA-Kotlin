@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - in kotlin
 ## Math
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/sahuadarsh0/DSA-Kotlin/tree/master/0258-add-digits) |
 | [1013-fibonacci-number](https://github.com/sahuadarsh0/DSA-Kotlin/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
@@ -41,4 +42,12 @@ A collection of LeetCode questions to ace the coding interview! - in kotlin
 |  |
 | ------- |
 | [0078-subsets](https://github.com/sahuadarsh0/DSA-Kotlin/tree/master/0078-subsets) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/sahuadarsh0/DSA-Kotlin/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/sahuadarsh0/DSA-Kotlin/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
